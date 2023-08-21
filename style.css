@@ -1,0 +1,61 @@
+.btn {
+    --bs-btn-bg: #198754;
+    --bs-btn-border-color: #146c43;
+    --bs-btn-hover-bg: var(--bs-btn-border-color);
+    --bs-btn-hover-border-color-bg: var(--bs-btn-border-color);
+    --bs-btn-active-bg: var(--bs-btn-bg);
+}
+main {
+    margin-top: 5rem;
+}
+.navbar-brand img {
+    width: 50px;
+}
+.carousel-item {
+    height: 500px;
+}
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.carousel-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31, 31, 3, 1));
+    position: absolute;
+}
+.card-menu img {
+    height: 300px;
+    object-fit: cover;
+}
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #212529;
+    box-sizing: border-box;
+}
+
+footer p {
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+}
